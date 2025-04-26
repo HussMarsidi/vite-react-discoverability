@@ -6,7 +6,7 @@ import NotFound from './pages/NotFound';
 
 export default function AppRouter() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/vite-react-discoverability">
             <RouterRoutes>
                 <Route
                     index
