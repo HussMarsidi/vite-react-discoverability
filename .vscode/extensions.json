@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "github.copilot",
+        "naumovs.color-highlight",
+        "mikestead.dotenv",
+        "eamodio.gitlens",
+        "wix.vscode-import-cost",
+        "pomdtr.excalidraw-editor",
+        "kisstkondoros.vscode-gutter-preview",
+        "rohit-gohri.format-code-action",
+        "vscode-infra.image-viewer",
+        "jasonnutter.vscode-codeowners",
+        "ue.alphabetical-sorter",
+        "lokalise.i18n-ally",
+        "meganrogge.template-string-converter",
+        "bradlc.vscode-tailwindcss",
+        "austenc.tailwind-docs",
+        // testing related
+        "Orta.vscode-jest",
+        "andys8.jest-snippets"
+    ]
+}

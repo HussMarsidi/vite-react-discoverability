@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Follow mobile spacing where we use 100 for 8px, NOTE: Tailwind root font size is 16px */
+    --spacing: 0.005rem;
+}
