@@ -13,10 +13,12 @@ export default function AppRouter() {
                     path={ROUTES.HOME}
                     element={<Main />}
                 />
-                <Route
-                    path={`${ROUTES.ARTICLE}/:slug`}
-                    element={<Article />}
-                />
+                <Route path={`${ROUTES.ARTICLE}`}>
+                    <Route
+                        path={':slug'}
+                        element={<Article />}
+                    />
+                </Route>
                 <Route
                     path="*"
                     element={<NotFound />}
